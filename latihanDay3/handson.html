@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Of Objects</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Latihan</h1>
+    <h3>Array of Object</h3>
+    <table style="width: 100%">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Nik</th>
+          <th>Jenis Kelamin</th>
+          <th>Golongan Darah</th>
+          <th>Tempat Asal</th>
+          <th>Alamat Domisili</th>
+          <th>Hobi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <script>
+          let Nakama = [
+            {
+              nama: "zoro",
+              nik: "322",
+              jenis_kelamin: "laki-laki",
+              gol_dar: "O",
+              asal: "jakarta",
+              domisili: "Jayapura",
+              hobi: ["Tidur", "Gim", "Minum Jus"],
+            },
+            {
+              nama: "Luffi",
+              nik: "246",
+              jenis_kelamin: "laki-laki",
+              gol_dar: "B",
+              asal: "Bekasi",
+              domisili: "Makasar",
+              hobi: ["Makan", "Memancing", "Joging"],
+            },
+            {
+              nama: "Sanji",
+              nik: "311",
+              jenis_kelamin: "laki-laki",
+              gol_dar: "A",
+              asal: "Depok",
+              domisili: "Yogyakarta",
+              hobi: ["Memasak", "Baca Buku", "Nyemil"],
+            },
+            {
+              nama: "Nami",
+              nik: "571",
+              jenis_kelamin: "Perempuan",
+              gol_dar: "A",
+              asal: "Bandung",
+              domisili: "Jakarta",
+              hobi: ["Belanja", "Perawatan", "Tidur"],
+            },
+          ];
+          for (let i = 0; i < Nakama.length; i++) {
+            document.write("<tr>");
+            document.write("<td>" + Nakama[i].nama + "</td>");
+            document.write("<td>" + Nakama[i].nik + "</td>");
+            document.write("<td>" + Nakama[i].jenis_kelamin + "</td>");
+            document.write("<td>" + Nakama[i].gol_dar + "</td>");
+            document.write("<td>" + Nakama[i].asal + "</td>");
+            document.write("<td>" + Nakama[i].domisili + "</td>");
+            document.write("<td>" + Nakama[i].hobi + "</td>");
+            document.write("</tr>");
+          }
+        </script>
+      </tbody>
+    </table>
+  </body>
+  <script></script>
+</html>

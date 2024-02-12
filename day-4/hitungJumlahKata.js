@@ -1,14 +1,11 @@
 function hitungJumlahKata(kata) {
     let jumlahKata = 0;
-
-
     for (let i = 0; i < kata.length; i++) {
      
         if (kata[i] !== ' ' && (i === 0 || kata[i - 1] === ' ')) {
             jumlahKata++;
         }
     }
-
     return jumlahKata;
 }
 console.log("Jumlah kata:", hitungJumlahKata('I have a dream')); 

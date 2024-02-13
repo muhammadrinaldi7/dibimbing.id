@@ -10,6 +10,14 @@
 
 const prompt = require('prompt-sync')();
 
-const input = prompt('continue (yes) / berhenti (no) ? ');
+let hasil = 0;
+while(true) {
+    const input = prompt('continue (yes) / berhenti (no) ? ');
+    if(input == 'no') {
+        break;
+    }else{
+        hasil++;
+    }
+}
 
-console.log(`Anda menginput "yes" sebanyak x kali`);
+console.log('Anda menginput "yes" sebanyak ' +hasil+ ' kali');

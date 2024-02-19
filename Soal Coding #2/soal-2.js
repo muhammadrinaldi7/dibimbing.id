@@ -20,4 +20,4 @@ while(true) {
     }
 }
 
-console.log('Anda menginput "yes" sebanyak ' +hasil+ ' kali');
+console.log(`Anda menginput "yes" sebanyak ${hasil} kali`);

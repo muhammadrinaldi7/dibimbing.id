@@ -10,7 +10,31 @@
  */
 
 const prompt = require('prompt-sync')();
+let hasil = 0;
+while(true) {
+    const input = prompt('input ? ');
+    if(input.match(/^\d+$/)){        
+        hasil += parseInt(input);
+    }else{
+        
+       break; // ini diganti dengan jumlah seluruh inputnya
+    }
+}
+console.log(`jumlah = ${hasil}`);
 
-const input = prompt('input ? ');
+// const prompt = require('prompt-sync')();
 
-console.log('jumlah = x'); // ini diganti dengan jumlah seluruh inputnya
+// let jumlah = 0;
+// while (true) {
+//   const input = prompt('input ? ');
+
+//   // check if input is number
+//   if (input.match(/^\d+$/)) {
+//     jumlah += parseInt(input);
+//   }
+//   else {
+//     break;
+//   }
+// }
+
+// console.log('jumlah = ' + jumlah);

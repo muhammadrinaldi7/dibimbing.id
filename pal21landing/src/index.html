@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pal 21 Coffee</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="bg-white top-0 left-0 w-full flex items-center z-50">
+      <div class="w-full">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a
+              href="#pal21"
+              class="font-bold lilita-one-regular text-lg text-slate-500 block py-6"
+              ><img src="img/icon.png" class="h-10" alt=""
+            /></a>
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line origin-top-left transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden lg:block lg:static lg:shadow-none lg:rounded-none lg:bg-transparent lg:max-w-full absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-black py-2 flex mx-8 group-hover:text-gray-500"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-black py-2 flex mx-8 group-hover:text-gray-500"
+                    >About</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#menu"
+                    class="text-base text-black py-2 flex mx-8 group-hover:text-gray-500"
+                    >Menu</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+      id="home"
+      class="bg-cover bg-center h-screen flex items-center hiro"
+      style="
+        background-image: url(img/heroBg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      "
+    >
+      <main class="p-6 text-gray-950">
+        <h1 class="lilita-one-regular mb-0 text-8xl drop-shadow-xl">
+          PAL .21 <span class="text-[#FFF]">COFFEE</span>
+        </h1>
+        <h1 class="lilita-one-regular mb-0 text-4xl drop-shadow-xl">
+          OPERATIONAL HOURS
+          <span class="text-white animate-ping">08:00 - 24:00</span>
+        </h1>
+        <p
+          class="montserrat-200 text-[#ffffff] lg:text-lg"
+          style="margin-top: 0"
+        >
+          Smoking Room, Barbershop, Outdoor Area, and VIP Room
+        </p>
+      </main>
+    </section>
+    <section id="about">
+      <div class="hero min-h-screen py-24 bg-base-200">
+        <div class="hero-content flex-col lg:flex-row">
+          <div
+            class="carousel carousel-center max-w-md max-h-[28rem] p-4 space-x-4 bg-neutral rounded-box"
+          >
+            <div class="carousel-item max-w-sm">
+              <img
+                src="img/car1.jpg"
+                class="rounded-box w-full h-auto object-cover max-w-full"
+              />
+            </div>
+            <div class="carousel-item max-w-sm">
+              <img
+                src="img/car2.jpg"
+                class="rounded-box w-full h-auto object-cover max-w-full"
+              />
+            </div>
+            <div class="carousel-item max-w-sm">
+              <img
+                src="img/car3.jpg"
+                class="rounded-box w-full h-auto object-cover max-w-full"
+              />
+            </div>
+            <div class="carousel-item max-w-sm">
+              <img
+                src="img/car4.jpg"
+                class="rounded-box w-full h-auto object-center object-cover max-w-full"
+              />
+            </div>
+            <div class="carousel-item max-w-sm">
+              <img
+                src="img/livemusics.png"
+                class="rounded-box w-full h-auto object-center object-cover max-w-full"
+              />
+            </div>
+          </div>
+          <div class="text-center ml-4 lg:text-left text-wrap">
+            <h1 class="text-6xl font-bold lilita-one-regular">
+              PAL 21<br />
+              Coffee By. Rn
+            </h1>
+            <p class="py-6 text-wrap text-2xl oswald-200">
+              Selamat datang di PAL21 Coffee Temukan pengalaman yang lengkap
+              dengan kopi segar, layanan barbershop, ruang VIP yang nyaman,
+              outdoor area, dan area smoking indoor yang menawan dan juga ada
+              hiburan live music.
+            </p>
+            <a href="#menu" class="btn bg-gray-950 text-white"> Lihat Menu </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menu">
+      <div class="bg-[#222831] hero min-h-screen">
+        <div
+          class="container py-24 grid grid-cols-1 lg:grid-cols-3 gap-2 p-5 w-full bg-[#222831]"
+        >
+          <div class="lg:col-span-3 text-center">
+            <h1 class="text-white lilita-one-regular underline text-5xl">
+              Our Menu
+            </h1>
+            <ul
+              id="menu-filters"
+              class="menu mt-3 menu-horizontal rounded-xl bg-white"
+            >
+              <li class="btn-filter active" data-filter="all"><a>All</a></li>
+              <li class="btn-filter" data-filter=".signature">
+                <a>Signature</a>
+              </li>
+              <li class="btn-filter" data-filter="mocktail">
+                <a>Mocktail</a>
+              </li>
+              <li class="btn-filter" data-filter=".coffe-base">
+                <a>Coffee Base</a>
+              </li>
+              <li class="btn-filter" data-filter=".manual">
+                <a>Manual Brew</a>
+              </li>
+              <li class="btn-filter" data-filter=".non-coffee">
+                <a>Non Coffee</a>
+              </li>
+              <li class="btn-filter" data-filter=".blended"><a>Blended</a></li>
+              <li class="btn-filter" data-filter=".milkshake">
+                <a>Milkshake</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="flex flex-col mocktail lg:max-h-[300px] mx-auto rounded-lg item hover duration-300 hover:shadow-md hover:shadow-green-500 hover:scale-105 bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-xl md:flex-row"
+          >
+            <img
+              class="h-96 w-full rounded-t-lg object-cover hover:opacity-75 md:h-auto md:w-48 md:!rounded-none md:!rounded-s-lg"
+              src="img/mojito.jpg"
+              alt=""
+            />
+            <div class="flex flex-col justify-start p-6">
+              <h5 class="mb-2 text-xl text-green-500 font-medium">
+                VIRGIN <span class="text-yellow-400">MOJITO</span>
+              </h5>
+              <p class="mb-4 text-base">
+                Perpaduan rasa Fresh dan juga Sweet ditambah bulir biji selasih
+                yang bisa melegakan tenggorokan.
+              </p>
+              <p class="text-xs text-surface/75 dark:text-neutral-300">
+                IDR. 28
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col mocktail rounded-lg mx-auto lg:max-h-[300px] item hover duration-500 bg-white hover:shadow-md hover:shadow-pink-600 hover:scale-105 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-xl md:flex-row"
+          >
+            <img
+              class="h-96 w-full rounded-t-lg object-cover hover:opacity-75 md:h-auto md:w-48 md:!rounded-none md:!rounded-s-lg"
+              src="img/mintcooler.jpg"
+              alt=""
+            />
+            <div class="flex flex-col justify-start p-6">
+              <h5 class="mb-2 text-xl text-pink-600 font-medium">
+                MINT <span class="text-sky-300">COOLER</span>
+              </h5>
+              <p class="mb-4 text-base">
+                Perpaduan rasa daun Mint dan juga buah Strawberry segar.
+              </p>
+              <p class="text-xs text-surface/75 dark:text-neutral-300">
+                Last updated 3 mins ago
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col mocktail rounded-lg mx-auto lg:max-h-[300px] item hover duration-500 bg-white hover:shadow-md hover:shadow-zinc-100 hover:scale-105 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-xl md:flex-row"
+          >
+            <img
+              class="h-96 w-full rounded-t-lg object-cover hover:opacity-75 md:h-auto md:w-48 md:!rounded-none md:!rounded-s-lg"
+              src="img/lychemojito.jpg"
+              alt=""
+            />
+            <div class="flex flex-col justify-start p-6">
+              <h5 class="mb-2 text-xl text-black font-medium">
+                LYCHE <span class="text-lime-600">MOJITO</span>
+              </h5>
+              <p class="mb-4 text-base">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="text-xs text-surface/75 dark:text-neutral-300">
+                Last updated 3 mins ago
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col rounded-lg item hover mx-auto lg:max-h-[300px] duration-500 bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-xl md:flex-row"
+          >
+            <img
+              class="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:!rounded-none md:!rounded-s-lg"
+              src="https://tecdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg"
+              alt=""
+            />
+            <div class="flex flex-col justify-start p-6">
+              <h5 class="mb-2 text-xl font-medium">Card title</h5>
+              <p class="mb-4 text-base text-black">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="text-xs text-surface/75 dark:text-neutral-300">
+                Last updated 3 mins ago
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col rounded-lg item hover mx-auto duration-500 bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-xl md:flex-row"
+          >
+            <img
+              class="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:!rounded-none md:!rounded-s-lg"
+              src="https://tecdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg"
+              alt=""
+            />
+            <div class="flex flex-col justify-start p-6">
+              <h5 class="mb-2 text-xl font-medium">Card title</h5>
+              <p class="mb-4 text-base">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="text-xs text-surface/75 dark:text-neutral-300">
+                Last updated 3 mins ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gallery" class="gallery">
+      <div class="hero min-h-screen">
+        <div class="container grid grid-cols-1 lg:grid-cols-4 gap-4 py-24 px-8">
+          <a
+            href="#"
+            class="group relative rounded-lg block bg-black shadow-2xl hover:scale-105 duration-500 shadow-black"
+          >
+            <img
+              alt=""
+              src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+              class="absolute inset-0 h-full rounded-lg w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+            />
+
+            <div class="relative rounded-lg p-4 sm:p-6 lg:p-8">
+              <p
+                class="text-sm font-medium uppercase tracking-widest text-pink-500"
+              >
+                Developer
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">Tony Wayne</p>
+
+              <div class="mt-32 sm:mt-48 lg:mt-64">
+                <div
+                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                >
+                  <p class="text-sm text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Omnis perferendis hic asperiores quibusdam quidem voluptates
+                    doloremque reiciendis nostrum harum. Repudiandae?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="group relative rounded-lg block bg-black shadow-2xl hover:scale-105 duration-500 shadow-black"
+          >
+            <img
+              alt=""
+              src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+              class="absolute inset-0 h-full rounded-lg w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+            />
+
+            <div class="relative rounded-lg p-4 sm:p-6 lg:p-8">
+              <p
+                class="text-sm font-medium uppercase tracking-widest text-pink-500"
+              >
+                Developer
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">Tony Wayne</p>
+
+              <div class="mt-32 sm:mt-48 lg:mt-64">
+                <div
+                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                >
+                  <p class="text-sm text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Omnis perferendis hic asperiores quibusdam quidem voluptates
+                    doloremque reiciendis nostrum harum. Repudiandae?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="group relative rounded-lg block bg-black shadow-2xl hover:scale-105 duration-500 shadow-black"
+          >
+            <img
+              alt=""
+              src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+              class="absolute inset-0 h-full rounded-lg w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+            />
+
+            <div class="relative rounded-lg p-4 sm:p-6 lg:p-8">
+              <p
+                class="text-sm font-medium uppercase tracking-widest text-pink-500"
+              >
+                Developer
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">Tony Wayne</p>
+
+              <div class="mt-32 sm:mt-48 lg:mt-64">
+                <div
+                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                >
+                  <p class="text-sm text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Omnis perferendis hic asperiores quibusdam quidem voluptates
+                    doloremque reiciendis nostrum harum. Repudiandae?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="group relative rounded-lg block bg-black shadow-2xl hover:scale-105 duration-500 shadow-black"
+          >
+            <img
+              alt=""
+              src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+              class="absolute inset-0 h-full rounded-lg w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+            />
+
+            <div class="relative rounded-lg p-4 sm:p-6 lg:p-8">
+              <p
+                class="text-sm font-medium uppercase tracking-widest text-pink-500"
+              >
+                Developer
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">Tony Wayne</p>
+
+              <div class="mt-32 sm:mt-48 lg:mt-64">
+                <div
+                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                >
+                  <p class="text-sm text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Omnis perferendis hic asperiores quibusdam quidem voluptates
+                    doloremque reiciendis nostrum harum. Repudiandae?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="hero flex flex-col bg-base-200 py-24 min-h-screen">
+        <h1 class="text-5xl underline lilita-one-regular text-black">
+          Contact Us
+        </h1>
+        <div class="container px-8">
+          <div class="flex bg-slate-800 flex-wrap mt-6">
+            <iframe
+              class="w-full object-cover flex-shrink flex-grow flex-[45rem]"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.610795934532!2d114.70751957481053!3d-3.4444471965300014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de69dc053ae8cfd%3A0x21e8eb19d649c8b!2sPAL%2021%20COFFEE%20by%20RN!5e0!3m2!1sid!2sid!4v1714115811304!5m2!1sid!2sid"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      const filterButtons = document.querySelectorAll(".btn-filter");
+      const items = document.querySelectorAll(".item");
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const filterValue = button.getAttribute("data-filter");
+          filterItems(filterValue);
+          setActiveButton(button);
+        });
+      });
+
+      function filterItems(filter) {
+        items.forEach((item) => {
+          if (filter === "all" || item.classList.contains(filter)) {
+            item.classList.remove("hidden");
+          } else {
+            item.classList.add("hidden");
+          }
+        });
+      }
+
+      function setActiveButton(activeButton) {
+        filterButtons.forEach((button) => {
+          button.classList.remove("active");
+        });
+        activeButton.classList.add("active");
+      }
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <style>
+      .product-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .card h1 {
+        font-size: 18px;
+      }
+      .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 30%; /* Lebar masing-masing item */
+        margin-bottom: 20px; /* Jarak antara item */
+        border: 1px solid #ccc; /* Garis pembatas antara item */
+        padding: 10px; /* Ruang dalam masing-masing item */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="product" class="product-container"></div>
+  </body>
+  <script src="script.js"></script>
+</html>

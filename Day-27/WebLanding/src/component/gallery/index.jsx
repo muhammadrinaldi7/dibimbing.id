@@ -21,7 +21,7 @@ const Gallery = () => {
             <div className="container">
                 <h1>GALLERY</h1>
                 <div className="grid-gallery">
-                    <div className="grid"><RandomImage/><p style={{textAlign: 'center',color:'black'}}>Lorem</p></div>
+                    <div className="grid"><RandomImage/></div>
                     <div className="grid"><RandomImage/></div>
                     <div className="grid"><RandomImage/></div>
                     <div className="grid"><RandomImage/></div>

@@ -33,9 +33,11 @@
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box; /* Padding akan dimasukkan ke dalam width */
-  padding: 40px; /* Atur padding sesuai kebutuhan */
+  padding: 30px; /* Atur padding sesuai kebutuhan */
   justify-content: space-evenly;
+  gap: 30px;
 }
+
 .card {
   border: 1px solid black;
   display: flex;

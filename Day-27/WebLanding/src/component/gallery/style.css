@@ -57,6 +57,7 @@
 .grid:hover {
   scale: 1.2;
   border-radius: 20px;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.132);
 }
 .grid:hover > p {
   transform: scale(1.3);

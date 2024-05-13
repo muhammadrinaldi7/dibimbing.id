@@ -21,12 +21,65 @@ const App = () =>{
     {id: 5,name: 'Breakfast', image: breakfast},
     {id: 6,name: 'Live Music', image:music},
   ];
+  const testi = [
+    {
+      "nama": "Rinaldi",
+      "penilaian": "Sangat Nyaman",
+      "deskripsi": "Tempatnya bagus adem seru, kalo malam ada live music nya."
+    },
+    {
+      "nama": "Fitriani",
+      "penilaian": "Luar Biasa",
+      "deskripsi": "Pelayanan sangat memuaskan, makanannya enak, dan suasana tempatnya sangat nyaman."
+    },
+    {
+      "nama": "Budi",
+      "penilaian": "Sangat Puas",
+      "deskripsi": "Tempat yang bagus untuk bersantai, makanannya lezat, dan harga terjangkau."
+    },
+    {
+      "nama": "Siti",
+      "penilaian": "Memuaskan",
+      "deskripsi": "Suasana tempatnya sangat menyenangkan, cocok untuk berkumpul bersama keluarga."
+    },
+    {
+      "nama": "Ahmad",
+      "penilaian": "Baik",
+      "deskripsi": "Makanan enak, tapi tempatnya agak ramai saat akhir pekan."
+    },
+    {
+      "nama": "Dewi",
+      "penilaian": "Puas",
+      "deskripsi": "Tempatnya bersih, pelayanan ramah, makanan juga enak."
+    },
+    {
+      "nama": "Rizki",
+      "penilaian": "Biasa Saja",
+      "deskripsi": "Harga makanan terlalu mahal untuk ukuran porsi yang diberikan."
+    },
+    {
+      "nama": "Putri",
+      "penilaian": "Kurang Memuaskan",
+      "deskripsi": "Pelayanan lambat, makanan tidak sesuai dengan harapan."
+    },
+    {
+      "nama": "Andre",
+      "penilaian": "Sangat Baik",
+      "deskripsi": "Rekomendasi untuk tempat makan bersama teman-teman."
+    },
+    {
+      "nama": "Dina",
+      "penilaian": "Bagus",
+      "deskripsi": "Suasana tempatnya nyaman, cocok untuk nongkrong santai."
+    }
+  ];
+  
   return (  
     <>
     <Navbar navlink={list}/>
     <Hero/>
     <Service service={service}/>
-    <Blog/>
+    <Blog testi={testi}/>
     <Gallery/>
     </>
   )

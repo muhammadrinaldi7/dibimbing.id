@@ -10,9 +10,10 @@ import wifi from './component/service/img/wifi.png';
 import breakfast from './component/service/img/breakfast.png';
 import music from './component/service/img/music.png';
 import Blog from "./component/blog";
+import Footer from "./component/footer";
 
 const App = () =>{
-  const list = ['Home', 'Services', 'Testimonial','Gallery', 'Contact Us'];
+  const list = ['Home', 'Services', 'Testimonial','Gallery', 'ContactUs'];
   const service = [
     {id: 1,name: 'Barbershop', image: barber},
     {id: 2,name: 'Smooking Room', image: smoking},
@@ -81,6 +82,7 @@ const App = () =>{
     <Service service={service}/>
     <Blog testi={testi}/>
     <Gallery/>
+    <Footer/>
     </>
   )
 }

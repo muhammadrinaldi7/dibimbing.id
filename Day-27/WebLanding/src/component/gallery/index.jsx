@@ -33,45 +33,6 @@ const Gallery = () => {
         </>
     )
 }
-// const Carousel = ({ images, interval = 300 }) => {
-//   const [currentIndex, setCurrentIndex] = useState(0);
-
-//   useEffect(() => {
-//     const intervalId = setInterval(() => {
-//       setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-//     }, interval);
-
-//     return () => clearInterval(intervalId);
-//   }, [images.length, interval]);
-
-//   return (
-//     <div className="carousel-container">
-//       {images.map((image, index) => (
-//         <div
-//           key={index}
-//           className={index === currentIndex ? "slide active" : "slide"}
-//           style={{ backgroundImage: `url(${image})` }}
-//         ></div>
-//       ))}
-//     </div>
-//   );
-// };
-// const images = [
-//   car1,
-//   car2,car3,
-// ];
-// const Gallery = () => {
-//   return(
-//       <>
-//       <section id="Gallery" className="gallery">
-//           <div className="container">
-//               <h1>GALLERY</h1>
-//               <Carousel images={images} />
-//           </div>
-//       </section>
-//       </>
-//   )
-// }
 
 
-export default Gallery
+export default Gallery 

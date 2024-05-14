@@ -95,11 +95,9 @@ const App = () => {
       <div className="usersBox">
         {user?.map((item, index) => {
           return (
-            <div className="userBox">
-              <div key={index}>
-                <h3>{item?.name}</h3>
-                <p>{item?.email}</p>
-              </div>
+            <div key={index} className="userBox">
+              <h3>{item?.name}</h3>
+              <p>{item?.email}</p>
             </div>
           )
         })}

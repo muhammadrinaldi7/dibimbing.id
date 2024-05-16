@@ -51,10 +51,32 @@
   box-sizing: border-box;
   border: 2px solid black;
   overflow: hidden;
+  box-sizing: border-box;
+  padding:4px
 }
 
 .kontak {
   height: 70%;
   width: 30%;
   border: 2px solid black;
+}
+.slist {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3px;
+  list-style-type: none;
+  max-width: 600px; 
+}
+.slist li {
+  width: calc(33.33% - 10px); /* Menghitung lebar untuk 3 kolom */
+  margin-bottom: 10px; /* Jarak antara item */
+  padding: 5px; /* Padding untuk menjaga jarak dari tepi */
+  box-sizing: border-box; /* Biar padding tidak menambah lebar item */
+  text-align: center; /
+}
+
+.slist li:hover{
+  background-color: #f0f0f0; /* Warna latar belakang */
 }

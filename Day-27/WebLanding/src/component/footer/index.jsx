@@ -20,7 +20,7 @@ const Footer = () => {
                         <h2>
                             Fasilitas dan Layanan
                         </h2>
-                        <ul>
+                        <ul className="slist">
                             <li>Barbershop</li>
                             <li>Vip Room</li>
                             <li>Smooking Room</li>
